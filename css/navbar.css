@@ -1,0 +1,60 @@
+.navBar {
+  width: 100vw;
+  height: 75px;
+  background-color: rgb(255, 202, 104);
+  border-bottom: 3px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+}
+
+.navItemsContainer {
+  width: 100vw;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navItem {
+  width: 100px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink {
+  color: rgb(6, 12, 51);
+
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navLink:hover {
+  color: aliceblue;
+}
+
+.logo {
+  width: 400px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 50px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logoText {
+  font-size: 32.5px;
+  color: rgb(6, 12, 51);
+}
