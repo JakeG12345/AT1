@@ -52,13 +52,7 @@ p {
   color: aliceblue;
 }
 
-.imageOnLeft {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.imageOnRight {
+.imageContainer {
   display: flex;
   align-items: center;
   gap: 40px;
