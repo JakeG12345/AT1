@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 .navBar {
   width: 100vw;
   height: 75px;
@@ -15,6 +18,9 @@
 .navItemsContainer {
   width: 100vw;
   height: 50px;
+
+  margin-top: 4px;
+  margin-right: 50px;
 
   display: flex;
   justify-content: center;
@@ -36,6 +42,11 @@
 
   text-decoration: none;
   font-size: 20px;
+  font-family: "Secular One";
+}
+
+.selectedNavLink {
+  color: aliceblue;
 }
 
 .navLink:hover {
@@ -57,4 +68,6 @@
 .logoText {
   font-size: 32.5px;
   color: rgb(6, 12, 51);
+  font-family: "Bebas Neue";
+  text-decoration: underline;
 }
