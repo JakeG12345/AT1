@@ -46,11 +46,12 @@
 }
 
 .selectedNavLink {
-  color: aliceblue;
+  color: rgb(39, 87, 112);
+  /* color: aliceblue; */
 }
 
 .navLink:hover {
-  color: aliceblue;
+  color: rgb(39, 87, 112);
 }
 
 .logo {
